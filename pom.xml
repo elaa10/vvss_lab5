@@ -93,6 +93,7 @@
                 <configuration><skip>true</skip></configuration>
             </plugin>
             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-failsafe-plugin</artifactId>
                 <version>2.19.1</version>
                 <configuration>
@@ -101,7 +102,7 @@
                         <include>**/Test*.java</include>
                         <include>**/*Story.java</include>
                     </includes>
-                    <argLine>-Xmx512m</argLine>
+                    <argLine>-Xmx512m --add-opens java.base/java.lang=ALL-UNNAMED</argLine>
                     <systemPropertyVariables>
                         <webdriver.driver>${webdriver.driver}</webdriver.driver>
                     </systemPropertyVariables>
