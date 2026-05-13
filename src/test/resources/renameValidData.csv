@@ -1,0 +1,3 @@
+server,user,pass,oldName,newName
+"localhost","vvta1","vvta1","testDir1","renamedDir1"
+"localhost","vvta1","vvta1","testDir2","renamedDir2"

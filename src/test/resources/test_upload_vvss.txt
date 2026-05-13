@@ -1,0 +1,2 @@
+This is a test file used by the automated FTP upload test.
+Lab05 - VVSS 2025-2026

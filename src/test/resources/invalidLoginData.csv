@@ -1,0 +1,3 @@
+server,user,pass,errorMessage
+"serverinvalid","vvta1","vvta1","Unable to connect to FTP server"
+"localhost","vvta1","parolaGresita","Unable to login to FTP server"

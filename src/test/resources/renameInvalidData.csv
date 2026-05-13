@@ -1,0 +1,3 @@
+server,user,pass,oldName,invalidNewName,expectedError
+"localhost","vvta1","vvta1","invalidDir","","could not be renamed to"
+"localhost","vvta1","vvta1","invalidDir","../../../etc","could not be renamed to ../../../etc"
